@@ -1,0 +1,28 @@
+.summoner-Info {
+    background-color: lightskyblue;
+    display: flex;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+.summoner-Level {
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.summoner-Name {
+    font-size: 2rem;
+}
+
+.summoner-Icon img {
+    height: 100px;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}

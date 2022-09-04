@@ -1,0 +1,9 @@
+.rank-box {
+    display: flex;
+}
+img {
+    height: 150px;
+}
+.RANK-INFO {
+    padding: 10px;
+}

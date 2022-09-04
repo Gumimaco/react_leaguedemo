@@ -1,0 +1,13 @@
+.match {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    min-width: auto;
+}
+
+.match-loss {
+    background-color: rgba(171, 26, 26, 0.4);
+}
+.match-win {
+    background-color: rgba(8,166,255,0.4);
+}
