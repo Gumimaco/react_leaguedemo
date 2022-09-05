@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navstyle.css'
+
 function Navbar() {
     return (
         <div className="navbar">
@@ -10,7 +11,10 @@ function Navbar() {
                     <option value="na">NA</option>
                     <option value="kr">KR</option>
                 </select>
-                <input type="text" placeholder="Search..." className="navInputField"></input>
+                <div className="nav-search">
+                    <input type="text" placeholder="Search..." className="navInputField"></input>
+                    <button type="submit" className="searchButton-nav"><i className="fa fa-search"></i></button>
+                </div>
             </form>
         </div>
     )

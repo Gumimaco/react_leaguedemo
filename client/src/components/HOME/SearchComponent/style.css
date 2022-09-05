@@ -1,4 +1,62 @@
 .buttons_master {
     display:flex;
     align-items: baseline;
+    margin: 5px;
+    justify-content: space-between ;
+}
+.buttons_master input[type="radio"] {
+    display: none;
+    opacity: 0;
+    width: 0;
+}
+.buttons_master label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 2px 2px;
+    margin: 0 0 10px 10px;
+    font-size: 32px;
+    border-radius: 4px;
+    font-family: Roboto;
+    padding: 2px 8px 2px 8px;
+}
+.buttons_master input[type="radio"]:checked + label {
+    background-color: #00b4cc;
+    color: white;
+}
+.buttons_master label:hover {
+    background-color: #a5dee5;
+}
+.SearchField {
+    grid-column: 1/2;
+    grid-row: 5/11;
+    justify-self: center;
+}
+.search {
+    width: 500px;
+}
+.search input[type='text'] {
+    outline: 0px;
+    padding: 5px;
+    font-size: 35px;
+    border: 1px solid grey;
+    border-radius: 10px 0px 0px 10px;
+    width: 85%;
+    height: 40px;
+    background: #f1f1f1;
+    float: left;
+    font-family: Roboto;
+}
+.searchButton {
+    width: 12%;
+    height: 52px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.search img {
+    height: 25px;
 }

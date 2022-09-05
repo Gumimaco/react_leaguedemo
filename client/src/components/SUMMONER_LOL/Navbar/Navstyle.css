@@ -1,7 +1,30 @@
 .navbar {
-    height: 4vh;
+    height: 8vh;
     background-color: lightsteelblue;
     position: sticky;
     margin: 0px;
     padding: 0px;
+}
+.nav-search input[type='text'] {
+    outline: 0px;
+    padding: 5px;
+    font-size: 25px;
+    border: 1px solid grey;
+    border-radius: 10px 0px 0px 10px;
+    width: 20%;
+    height: 40px;
+    background: #f1f1f1;
+    float: left;
+    font-family: Roboto;
+}
+.searchButton-nav {
+    width: 3%;
+    height: 52px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 20px;
 }

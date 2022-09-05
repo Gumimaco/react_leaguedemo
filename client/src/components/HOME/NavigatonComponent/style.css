@@ -1,4 +1,22 @@
-nav {
-    background-color: lightblue;
-    height: 60px;
+.Navbar {
+    height: 100vh;
+    display: grid;
+    padding: 0px;
+    margin: 0px;
+    grid-auto-rows: 1fr;
+}
+.logo-text {
+    grid-column: 1/2;
+    grid-row: 1/5;
+    align-self: end;
+    justify-self: center;
+    display: grid;
+}
+.logo-text img {
+    height: 200px;
+    justify-self: center;
+}
+.logo-text div {
+    justify-self: center;
+    font-size: 3rem;
 }

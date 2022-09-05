@@ -13,9 +13,6 @@ function Homeapp() {
                     <Route path="*" element={<Errorpage/>}/>
                 </Route>
             </Routes>
-            <div className="Advertisment1">
-                HERE IS AD ____________
-            </div>  
         </div>
     )
 }

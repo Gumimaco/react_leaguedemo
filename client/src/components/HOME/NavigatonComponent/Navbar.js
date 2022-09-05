@@ -1,16 +1,18 @@
 import React from 'react'
-import {Link,Outlet} from 'react-router-dom'
+import {Outlet} from 'react-router-dom'
 import "./style.css"
 
 function Navbar() {
+
+
     return (
-        <div>
         <nav className="Navbar">
-            <Link to="/lol/summoner/eun1/MatusgoesBrrrrr">User</Link>
-            {/* <Link to="/lol/champions">CHAMPIONS UNUSABLE</Link> */}
+            <div className="logo-text">
+                <img src="https://cdn.pixabay.com/photo/2016/04/01/00/22/cat-1298141_960_720.png"></img>
+                <div>LEAGUE.DEMO</div>
+            </div>
+            <Outlet/>
         </nav>
-        <Outlet/>
-        </div>
     )
 }
 

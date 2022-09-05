@@ -11,12 +11,14 @@ function Search() {
     }
     return (
         <div className="SearchField">
-            <form onSubmit={event => {
+            <form spellCheck="false" onSubmit={event => {
                 event.preventDefault()
                 navigate(`lol/summoner/${state.server}/${state.name}/overview`,{state})
             }}>
-            <input type="text" onChange={event => {setState({...state, name: event.target.value})}}></input>
-            <button type="submit">SEARCH</button>
+            <div className="search">
+                <input type="text" onChange={event => {setState({...state, name: event.target.value})}}></input>
+                <button type="submit" className="searchButton"><i className="fa fa-search"></i></button>
+            </div>
             <div className="buttons_master">
                 <input type="radio" onClick={server_change} value="eun1" id="eun1" name="server" required></input>
                 <label htmlFor="eun1">EUNE</label>
