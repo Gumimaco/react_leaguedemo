@@ -1,5 +1,5 @@
 # Overview
-League of legends web app to check your rank and match history. Made with Node.js, React.js, JS, HTML, CSS, Express.
+League of legends web app to check your rank and match history. Made with Node.js, React.js, HTML, CSS, Express.
 <br/>
 Missing a lot of features
 <br/>
