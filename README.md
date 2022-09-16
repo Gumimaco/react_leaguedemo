@@ -3,9 +3,11 @@ League of legends web app to check your rank and match history. Made with Node.j
 <br/>
 Missing a lot of features
 <br/>
+VIDEO:
+<br/>
 [<img src="https://img.youtube.com/vi/i6rR2tRqTqQ/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=i6rR2tRqTqQ)
 # How to start
-I hope this will work :)
+I hope this works :)
 * git clone repository
 * cd client
 * npm install
